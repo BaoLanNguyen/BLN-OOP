@@ -3,17 +3,20 @@ namespace BLN_OOP
 class Player
 {
     public int health;
-    public int damage;
 
     public Player()
     {
-        health = 100;
-        damage = 10;
+        health = 200;
     }
 
-    public void Attack(Enemy enemy)
+    public void Punch(Enemy enemy)
     {
-        enemy.health -= damage;
+        enemy.health -= 5;
+    }
+    public void Slash(Enemy enemy)
+    {
+        enemy.health -= 15;
+        health -= 5;
     }
 
     public void TakeDamage(int damage)

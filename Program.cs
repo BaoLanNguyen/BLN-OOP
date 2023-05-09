@@ -9,15 +9,16 @@ internal class Program
         Player player = new Player();
         GameState state = GameState.MainMenu;
         int score = 0;
-        enemies.Add(new Enemy("Golblin"));
-        enemies.Add(new Enemy("Troll"));
-        enemies.Add(new Enemy("Dragon"));
-        bool win = true;
-        while (win)
+        enemies.Add(new Enemy("Golblin", 30, 5));
+        enemies.Add(new Enemy("Troll", 60, 10));
+        enemies.Add(new Enemy("Dragon", 120, 20));
+        bool still = true;
+        while (still)
         {
             switch (state)
             {
                 case GameState.MainMenu:
+                    player.health = 200;
                     Console.WriteLine("Welcome to the game!");
                     Console.WriteLine("1. Start");
                     Console.WriteLine("2. Exit");
@@ -37,27 +38,30 @@ internal class Program
                     Console.WriteLine("You are in battle!");
                     int enemyIndex = new Random().Next(enemies.Count);
                     Enemy enemy = enemies[enemyIndex];
+                    enemies[0].health = 30;
+                    enemies[1].health = 60;
+                    enemies[2].health = 120;
                     Console.WriteLine("You are fighting a " + enemy.name);
                     while (!player.IsDead() && !enemy.IsDead())
                     {
                         Console.WriteLine("Player health: " + player.health);
                         Console.WriteLine("Enemy health: " + enemy.health);
-                        Console.WriteLine("1. Attack");
+                        Console.WriteLine("1. Punch");
+                        Console.WriteLine("2. Sword Slash");
                         int attackChoice = int.Parse(Console.ReadLine());
                         if (attackChoice == 1)
                         {
-                            player.Attack(enemy);
+                            player.Punch(enemy);
+                            enemy.Attack(player);
+                        }
+                        else if(attackChoice == 2){
+                            player.Slash(enemy);
                             enemy.Attack(player);
                         }
                     }
                     if (player.IsDead())
                     {
                         state = GameState.Dead;
-                    }
-                    else if (enemyIndex == 2){
-                        Console.WriteLine("You won the game!");
-                        win = false;
-                        SaveScore(score);
                     }
                     else
                     {

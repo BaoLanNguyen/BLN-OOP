@@ -5,11 +5,11 @@ class Enemy
     public int damage;
     public string name;
 
-    public Enemy(string name)
+    public Enemy(string name, int health, int damage)
     {
         this.name = name;
-        health = 50;
-        damage = 5;
+        this.health = health;
+        this.damage = damage;
     }
 
     public void Attack(Player player)
