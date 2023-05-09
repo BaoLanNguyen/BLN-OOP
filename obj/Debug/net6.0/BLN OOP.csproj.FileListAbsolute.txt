@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\BLN OOP\bin\Debug\net6.0\BLN OOP.exe
+C:\Users\Admin\Documents\BLN OOP\bin\Debug\net6.0\BLN OOP.deps.json
+C:\Users\Admin\Documents\BLN OOP\bin\Debug\net6.0\BLN OOP.runtimeconfig.json
+C:\Users\Admin\Documents\BLN OOP\bin\Debug\net6.0\BLN OOP.dll
+C:\Users\Admin\Documents\BLN OOP\bin\Debug\net6.0\BLN OOP.pdb
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.AssemblyInfo.cs
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.dll
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\refint\BLN OOP.dll
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.pdb
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\BLN OOP.genruntimeconfig.cache
+C:\Users\Admin\Documents\BLN OOP\obj\Debug\net6.0\ref\BLN OOP.dll
