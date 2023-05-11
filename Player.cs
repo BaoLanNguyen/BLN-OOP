@@ -3,10 +3,12 @@ namespace BLN_OOP
 class Player
 {
     public int health;
+    public int slashDmg;
 
-    public Player()
+    public Player(int slashDmg)
     {
         health = 200;
+        this.slashDmg = slashDmg;
     }
 
     public void Punch(Enemy enemy)
@@ -15,7 +17,7 @@ class Player
     }
     public void Slash(Enemy enemy)
     {
-        enemy.health -= 15;
+        enemy.health -= slashDmg;
         health -= 5;
     }
 

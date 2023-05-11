@@ -6,7 +6,7 @@ internal class Program
     private static void Main(string[] args)
     {
         List<Enemy> enemies = new List<Enemy>();
-        Player player = new Player();
+        Player player = new Player(15);
         GameState state = GameState.MainMenu;
         int score = 0;
         enemies.Add(new Enemy("Golblin", 30, 5));
@@ -19,6 +19,7 @@ internal class Program
             {
                 case GameState.MainMenu:
                     player.health = 200;
+                    player.slashDmg = 15;
                     Console.WriteLine("Welcome to the game!");
                     Console.WriteLine("1. Start");
                     Console.WriteLine("2. Exit");
@@ -67,6 +68,8 @@ internal class Program
                     else
                     {
                         Console.WriteLine("You won the battle!");
+                        Console.WriteLine("Your sword slash is upgraded!");
+                        player.slashDmg += 5;
                         score += 1;
                         
                     }
