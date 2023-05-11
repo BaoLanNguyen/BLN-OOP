@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\BLN OOP\\BLN OOP.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\BLN-OOP\\BLN OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\BLN OOP\\BLN OOP.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\BLN-OOP\\BLN OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\BLN OOP\\BLN OOP.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\BLN-OOP\\BLN OOP.csproj",
         "projectName": "BLN OOP",
-        "projectPath": "C:\\Users\\Admin\\Documents\\BLN OOP\\BLN OOP.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\BLN-OOP\\BLN OOP.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\BLN OOP\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\BLN-OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -30,7 +30,8 @@ internal class Program
                     }
                     else if (choice == 2)
                     {
-                        Console.WriteLine("You have exited the game");
+                        Environment.Exit(1);
+
                     }
                     break;
 
